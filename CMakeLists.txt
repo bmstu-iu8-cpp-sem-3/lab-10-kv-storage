@@ -31,9 +31,6 @@ string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
 # hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
-hunter_add_package(gflags)
-find_package(gflags CONFIG REQUIRED)
-
 hunter_add_package(rocksdb)
 find_package(RocksDB CONFIG REQUIRED)
 
